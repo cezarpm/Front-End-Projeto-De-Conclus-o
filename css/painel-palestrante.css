@@ -1,0 +1,61 @@
+.painel-palestrante {
+    background-color: #EF7247;
+}
+
+.palestrante-info {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+
+.titulo-palestra,
+.subtitulo-palestra {
+    color: #ffffff;
+}
+
+.titulo-palestra {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.subtitulo-palestra {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+
+}
+
+.card-group {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.card-img {
+    width: 220px;
+    padding: 10px;
+    border-radius: 200px;
+}
+
+.palestrante-name {
+    margin-bottom: 10px;
+}
+
+.palestrante-bio {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    margin-bottom: 10px;
+}
