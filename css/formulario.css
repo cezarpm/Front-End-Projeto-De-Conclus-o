@@ -1,0 +1,44 @@
+.container-formulario{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.formulario-titulo{
+    font-size: 1.5em;
+    color: #EF7247;
+    text-transform: uppercase;
+}
+
+.form{
+    margin-top: 10px;
+}
+
+.form-form{
+    text-align: left;
+}
+
+.form-label{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #48A2A6; 
+}
+.form-button{
+    color: #ffffff;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: #48A3A6;
+
+}

@@ -9,28 +9,29 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/painel-sobre.css">
     <link rel="stylesheet" href="css/painel-palestrante.css">
+    <link rel="stylesheet" href="css/formulario.css"">
     <title>Alura Conferência</title>
 </head>
 
 <body>
-    <header class="header">
-        <nav class="main-menu">
-            <ul>
-                <li class="menu-item"><a href="#">Sobre</a></li>
-                <li class="menu-item"><a href="#">Palestrantes</a></li>
-            </ul>
-        </nav>
-        <div class="jumbotron">
-            <section class="painel">
-                <h1 class="titulo-principal">ALURACONF</h1>
-                <h2 class="titulo-segundario">30MAIO|RIO</h2>
-            </section>
-            <section class="painel-form">
-                <a href="#" class="button">INSCREVA-SE</a>
-            </section>
-        </div>
+    <header class=" header">
+    <nav class="main-menu">
+        <ul>
+            <li class="menu-item"><a href="#sobre">Sobre</a></li>
+            <li class="menu-item"><a href="#palestrantes">Palestrantes</a></li>
+        </ul>
+    </nav>
+    <div class="jumbotron">
+        <section class="painel">
+            <h1 class="titulo-principal">ALURACONF</h1>
+            <h2 class="titulo-segundario">30MAIO|RIO</h2>
+        </section>
+        <section class="painel-form">
+            <a href="#formulario" class="button">INSCREVA-SE</a>
+        </section>
+    </div>
     </header>
-    <section class="container-card painel painel-sobre">
+    <section id="sobre" class="container-card painel painel-sobre">
         <h2 class="titulo">Muito conteúdo: do frontend ao backend</h2>
         <h3 class="subtitulo">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
 
@@ -42,7 +43,7 @@
             </p>
         </div>
     </section>
-    <section class="painel painel-palestrante">
+    <section id="palestrantes" class="painel painel-palestrante">
         <div class="palestrante-info">
             <h2 class="titulo-palestra">Palestrantes</h1>
                 <h3 class="subtitulo-palestra">Aprenda com os palestrantes que são refenrencia no mercado</h3>
@@ -90,5 +91,19 @@
             </li>
         </ul>
     </section>
-</body>
+    <section id="formulario" class="container-formulario">
+        <h2 class=formulario-titulo>Seus Dados</h2>
+        <form class="form">
+            <div class="form-form">
+                <label class="form-label">Nome</label>
+                <input class="form-input">
+            </div>
+            <div class="form-form">
+                <label class="form-label">E-mail</label>
+                <input class="form-input">
+            </div>
+            <button class="form-button">Realizar Inscrição</button>
+        </form>
+    </section>
+    </body>
 </html>
